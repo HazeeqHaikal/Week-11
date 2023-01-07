@@ -12,7 +12,7 @@ int simpleInterest(float a, float r, float t) {
 int main() {
     float amount, rate, time;
 
-    rate = 2.5 / 100;
+    rate = 2.5;
     cout << "Enter the amount of loan: ";
     cin >> amount;
 
