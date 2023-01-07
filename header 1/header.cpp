@@ -1,0 +1,1 @@
+float calcComm(float sales, float commision);
