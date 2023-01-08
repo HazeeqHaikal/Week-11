@@ -7,11 +7,13 @@ int calcPayment(int packageType, int hoursSpend, int guestTotal) {
     int total = 0;
     int totalGuest = 50 * guestTotal;
     if (packageType == 1) {
-        total = 500 * hoursSpend + totalGuest;
+        total = 300 * hoursSpend + totalGuest;
     } else if (packageType == 2) {
-        total = 1000 * hoursSpend + totalGuest;
+        total = 550 * hoursSpend + totalGuest;
     } else if (packageType == 3) {
-        total = 1500 * hoursSpend + totalGuest;
+        total = 750 * hoursSpend + totalGuest;
+    } else {
+        cout << "Invalid package type" << endl;
     }
 
     return total;
